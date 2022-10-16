@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+footer{
+    clear: both;    
+   
+    
+}
+
+.columna {
+    width:33%;
+    float:left;
+    
+  }
+  p{
+    color: aliceblue;
+  }
+  
+  @media (max-width: 500px) {
+    
+    .columna {
+      width:max-content;
+      float:none;
+    }
+    
+  }
