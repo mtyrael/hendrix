@@ -1,5 +1,6 @@
 body{
     background-color: black;
+     }
 
   .dropdown {
       display: inline-block;
@@ -25,7 +26,7 @@ body{
       color: #FFFFFF;
       background-color: #00A4BD;
     }
-}
+
 
 footer{
     clear: both;    
