@@ -2,6 +2,23 @@ body{
     background-color: black;
      }
 
+     #navegador ul{
+      list-style-type: none;
+      text-align: left;
+   }
+
+   #navegador li{
+    display: inline;
+    text-align: left;
+    margin: 0 10px 0 0;
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: black;
+    border: 1px solid #ccc;
+    text-decoration: none;
+   }
+
+
   .dropdown {
       display: inline-block;
       position: relative;
@@ -23,7 +40,7 @@ body{
       text-decoration: none;
     }
     .dropdown-content a:hover {
-      color: #FFFFFF;
+      color: #000000;
       background-color: #00A4BD;
     }
 
