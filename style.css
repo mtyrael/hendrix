@@ -2,23 +2,12 @@ body{
     background-color: black;
      }
 
-     #navegador ul{
-      list-style-type: none;
-      text-align: left;
-   }
-
-   #navegador li{
-    display: inline;
-    text-align: left;
-    margin: 0 10px 0 0;
-    padding: 2px 7px 2px 7px;
-    color: #666;
-    background-color: black;
-    border: 1px solid #ccc;
-    text-decoration: none;
-   }
-
-
+     @media screen and (max-width: 640px) { 
+      .column {
+        width: 50%;
+      }    
+    }
+    
   .dropdown {
       display: inline-block;
       position: relative;
@@ -68,3 +57,24 @@ footer{
     }
     
   }
+
+  .contenedor{
+    background: #000000;
+  
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill, 100px); 
+  }
+
+  .caja_1{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+  .caja_2{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+  }
+
+  
