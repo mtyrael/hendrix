@@ -53,6 +53,11 @@ body{
   background-color: black;
 }
    
+.caja{
+  width:25%;
+  float:left;
+  
+}
 
 .columna {
     width:33%;
@@ -60,6 +65,7 @@ body{
     
   }
   p{
+    font-family: 'Poppins', sans-serif;
     color: aliceblue;
   }
  
