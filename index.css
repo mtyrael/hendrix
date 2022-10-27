@@ -49,6 +49,10 @@ ul, ol {
   top:0px;
 }
 
+#Cart{
+  float: right;
+}
+
 body{
   background-color: black;
 }
@@ -58,6 +62,7 @@ body{
   float:left;
   
 }
+
 
 .columna {
     width:33%;
