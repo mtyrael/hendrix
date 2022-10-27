@@ -23,6 +23,7 @@ ul, ol {
   text-decoration:none;
   padding:10px 12px;
   display:block;
+  font-family: BeoSupreme, "Lexend Deca", Arial, Helvetica, sans-serif;
 }
 
 .nav li a:hover {
@@ -52,6 +53,11 @@ body{
   background-color: black;
 }
    
+.caja{
+  width:25%;
+  float:left;
+  
+}
 
 .columna {
     width:33%;
@@ -59,6 +65,7 @@ body{
     
   }
   p{
+    font-family:  BeoSupreme, "Lexend Deca", Arial, Helvetica, sans-serif;
     color: aliceblue;
   }
  
