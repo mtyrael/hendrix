@@ -1,6 +1,6 @@
 const openModal = document.querySelector('.main_cta');
-const modal = document.querySelector('.modal');
-const closeModal = document.querySelector('modal_close');
+const modal = document.querySelector(".modal");
+const closeModal = document.querySelector(".modal__close");
 
 openModal.addEventListener('click', (e)=>{
     e.preventDefault();
@@ -8,7 +8,10 @@ openModal.addEventListener('click', (e)=>{
     
 });
 
-closeModal.addEventListener('click', (e)=>{
+closeModal.addEventListener('click', (e)=>{    
     e.preventDefault();
-    modal.classList.remove('modal--show');
+    modal.classList.remove("modal--show");
+    overlay.classList.remove("modal--show");
+   
 });
+
