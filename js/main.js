@@ -9,6 +9,6 @@ openModal.addEventListener('click', (e)=>{
 });
 
 closeModal.addEventListener('click', (e)=>{
-    
+    e.preventDefault();
     modal.classList.remove('modal--show');
 });
