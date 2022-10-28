@@ -17,3 +17,7 @@ font-family: 'Poppins', sans-serif;
         width:25%;
         float:left;
     }
+
+.text-justify {
+        text-align: justify;
+      }
