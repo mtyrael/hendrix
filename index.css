@@ -2,11 +2,17 @@
   margin:0px;
   padding:0px;
 }
-
+#main-header{  
+  position: fixed;
+  width: 100%;
+	left: 0;
+	top: 0;
+}
 #navegador {
   margin:auto;
   width:max-content;
   font-family:Arial, Helvetica, sans-serif;
+  
 }
 
 ul, ol {
