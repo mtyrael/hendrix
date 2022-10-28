@@ -63,6 +63,40 @@ body{
   
 }
 
+#altavoces {
+  color: white;
+  position: bottom; 
+  top: 10px;
+  left: 10px;
+}
+
+#auriculares{
+
+    color: white;
+    position: bottom; 
+    top: 10px;
+    left: 10px;
+  
+}
+
+#Barrasonido{
+  
+    color: white;
+    position: bottom; 
+    top: 10px;
+    left: 10px;
+  
+}
+
+#instrumentos{
+  
+    color: white;
+    position: bottom; 
+    top: 10px;
+    left: 10px;
+  
+}
+
 
 .columna {
     width:33%;
