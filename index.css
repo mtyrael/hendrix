@@ -93,7 +93,7 @@ body{
   pointer-events: unset;
   transition: opacity .6s;
   --transform: translateY(0);
-  --transition: transform .8s;
+  --transition: transform .8s .8s;
 }
 
 .modal__container{
@@ -146,7 +146,7 @@ body{
 }
 
 .btn-main{
-  grid-area: auto;
+  
   display: grid;  
   height: 20px;
   width: 20%;
@@ -154,6 +154,7 @@ body{
   /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
   grid-template-columns: 1fr 1fr;
   padding-bottom: 100px; 
+  align-content: space-between;
 }
 
 .main_cta{
@@ -166,6 +167,12 @@ body{
   font-weight: 300;
   transition: background-color .3s;
 }
+
+.main_cta:hover{
+  background-color: #fff;
+  color: #1e3c72;
+}
+
 section{
   height:100vh;
   width: 100%;
