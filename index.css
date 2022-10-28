@@ -56,7 +56,15 @@ ul, ol {
 body{
   background-color: black;
 }
-   
+ 
+.contenedorVideo{
+  
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
 .caja{
   width:25%;
   float:left;
