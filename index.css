@@ -58,6 +58,10 @@ ul, ol {
   
 }
 
+#Logo{
+  float: left;
+}
+
 body{
   background-color: black;
 }
