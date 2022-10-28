@@ -1,6 +1,6 @@
 const openModal = document.querySelector('.main_cta');
 const modal = document.querySelector(".modal");
-const closeModal = document.querySelector(".modal__close");
+const closeModal = document.querySelector(".modal_close");
 
 openModal.addEventListener('click', (e)=>{
     e.preventDefault();
