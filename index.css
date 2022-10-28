@@ -198,6 +198,7 @@ section{
   position: bottom; 
   top: 10px;
   left: 10px;
+  font-size: x-large;
   
 }
 
@@ -207,6 +208,7 @@ section{
     position: bottom; 
     top: 10px;
     left: 10px;
+    font-size: x-large;
   
 }
 
@@ -216,6 +218,7 @@ section{
     position: bottom; 
     top: 10px;
     left: 10px;
+    font-size: x-large;
   
 }
 
@@ -225,7 +228,12 @@ section{
     position: bottom; 
     top: 10px;
     left: 10px;
+    font-size: x-large;
   
+}
+
+#textovideo{
+  font-size: xx-large;
 }
 
 
