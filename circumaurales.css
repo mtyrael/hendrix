@@ -1,0 +1,22 @@
+body{
+    background-image: fefaf9;
+    font-family: 'Poppins', sans-serif;
+     }
+h1{
+        font-size: x-large;
+        color: 0a0a0a;
+        font-family: 'Poppins', sans-serif;
+    }
+p{
+    color: 0a0a0a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    width:25%;
+    float:left;
+}
+
+.text-justify {
+    text-align: justify;
+  }
