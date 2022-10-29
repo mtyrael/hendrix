@@ -215,9 +215,12 @@ section{
 
 .caja{
   width:25%;
-  float:left;
-
+  float:left; 
   
+}
+
+.caja a{
+  text-decoration: none;
 }
 
 #altavoces {
@@ -237,6 +240,7 @@ section{
     top: 10px;
     left: 10px;
     font-size: x-large;
+    
   
 }
 
@@ -247,6 +251,7 @@ section{
     top: 10px;
     left: 10px;
     font-size: x-large;
+    
   
 }
 
@@ -257,6 +262,7 @@ section{
     top: 10px;
     left: 10px;
     font-size: x-large;
+   
   
 }
 
@@ -273,6 +279,7 @@ section{
   p{
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
+    text-decoration: none;
   }
  
   @media (max-width: 900px) {
