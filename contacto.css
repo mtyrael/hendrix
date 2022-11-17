@@ -29,7 +29,7 @@ input{
   border-radius: 5px;  
   border-style: solid; 
   border-width: 1px; 
-  border-color: #ab4493; 
+  border-color: #F26250; 
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
@@ -43,7 +43,7 @@ textarea{
   border-radius: 5px;  
   border-style: solid; 
   border-width: 1px; 
-  border-color: #ab4493; 
+  border-color: #F26250; 
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
@@ -79,7 +79,7 @@ button p{
 
 
 span{
-  color: #ab4493; 
+  color: #F26250; 
 }
 
 
@@ -93,7 +93,7 @@ h1{
   font-size: 39px;  
   text-align: letf; 
   padding-bottom: 20px; 
-  color: #ab4493;
+  color: #0e0e0e;
 }
 
 
@@ -122,11 +122,11 @@ p{
 
 .formulario input:focus{
   outline:0;
-  border: 1px solid #97d848;
+  border: 1px solid #1606f5;
 }
 
 
 .formulario textarea:focus{
   outline:0;
-  border: 1px solid #97d848;
+  border: 1px solid #1606f5;
 }
