@@ -2,6 +2,14 @@
   margin:0px;
   padding:0px;
 }
+.Contenedor-body{
+  width: 100%;  
+  margin: 0 auto;
+  overflow: hidden;
+}
+body{
+  background-color: black;
+}
 #main-header{  
   position: fixed;
   width: 100%;
@@ -68,9 +76,6 @@ ul, ol {
   float: left;
 }
 
-body{
-  background-color: black;
-}
 
 .modal{
   position: fixed;
@@ -165,7 +170,7 @@ body{
   color: aliceblue;
   font-size: large;
 }
-main_subtitule{
+.main_subtitule{
   font-family: 'Poppins', sans-serif;
   color: aliceblue;
   font-size: large;
@@ -189,7 +194,7 @@ main_subtitule{
    background-color: #fff;
     color: #1e3c72;
 }
-
+/*Sectio para la imagen principal*/
 section{
   height:100vh;
   width: 100%;
@@ -201,74 +206,75 @@ section{
 
 .image-1 {
   display: grid;
-  background-image: url(imagenes/guitarra2.jpg);
+  background-image:  url(imagenes/guitarra2.jpg);
   grid-auto-flow: column;
   align-items: center;
 }
 .contenedorVideo{
- 
+  
   margin: 0 auto;
   display: flex;
   justify-content: center;
   
 }
-
+#textovideo{
+  font-size: xx-large;
+}
+.containerPaginas{
+  margin-left: 5%;  
+  align-items: center;
+}
 .caja{
+  margin-bottom: 25px;
   width:25%;
   float:left; 
   
 }
-
+/*para sacar el subrrayado de hipervinculo de los textos de las imagenes*/
 .caja a{
+  
   text-decoration: none;
 }
 
 #altavoces {
-  color: white;
-  position: bottom; 
-  top: 10px;
-  left: 10px;
-  font-size: x-large;
+color: white;
+top: 10px;
+left: 10px;
+font-size: x-large;
+margin-top: -50px;
 
-  
 }
+
 
 #auriculares{
 
-    color: white;
-    position: bottom; 
+    color: white;    
     top: 10px;
     left: 10px;
     font-size: x-large;
-    
+    margin-top: -50px;
   
 }
 
 #Barrasonido{
   
-    color: white;
-    position: bottom; 
+    color: white;    
     top: 10px;
     left: 10px;
-    font-size: x-large;
-    
-  
+    font-size: x-large;    
+    margin-top: -50px;
 }
 
 #instrumentos{
   
-    color: white;
-    position: bottom; 
+    color: white;     
     top: 10px;
     left: 10px;
     font-size: x-large;
-   
+    margin-top: -50px;
   
 }
 
-#textovideo{
-  font-size: xx-large;
-}
 
 
 .columna {
@@ -277,6 +283,7 @@ section{
     
   }
   p{
+    
     font-family: 'Poppins', sans-serif;
     color: aliceblue;
     text-decoration: none;
@@ -308,139 +315,3 @@ section{
   font-family: 'Poppins', sans-serif;
 }
 
-
-  /* stilos para el formulario de contacto
-
-  /* Importación de fuentes de google fonts 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-
-
-body{
-  height: 100%; 
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #ab4493; 
-}
-
-
-.contact_form{  
-  width: 460px; 
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #fbfbfb; 
-  padding-left: 30px; 
-}
-
-
-input{
-  background-color: #fbfbfb; 
-  width: 408px; 
-  height: 40px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-}
-
-
-textarea{
-  background-color: #fbfbfb; 
-  width: 405px; 
-  height: 150px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
-}
-
-
-label{
-  display: block; 
-  float: center;  
-}
-
-
-button{
-  height: 45px; 
-  padding-left: 5px;
-  padding-right: 5px;   
-  margin-bottom: 20px; 
-  margin-top: 10px;   
-  text-transform: uppercase;
-  background-color: #ab4493; 
-  border-color: #ab4493; 
-  border-style: solid; 
-  border-radius: 10px;  
-  width: 420px;   
-  cursor: pointer;
-}
-
-
-button p{
-  color: #fff; 
-}
-
-
-span{
-  color: #ab4493; 
-}
-
-
-.aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
-}
-
-
-h1{
-  font-size: 39px;  
-  text-align: letf; 
-  padding-bottom: 20px; 
-  color: #ab4493;
-}
-
-
-h3{
-  font-size: 16px; 
-  padding-bottom: 30px;
-  color: #0e0e0e;   
-}
-
-
-p{
-  font-size: 14px; 
-  color: #0e0e0e; 
-}
-
-
-::-webkit-input-placeholder {
- color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
-
-
-.formulario input:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
-
-
-.formulario textarea:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
-*/
-  
