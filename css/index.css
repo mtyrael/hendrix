@@ -237,50 +237,50 @@ section{
 }
 
 #altavoces {
-color: white;
-top: 10px;
-left: 10px;
-font-size: x-large;
-margin-top: -50px;
+  color: white;
+  top: 10px;
+  left: 10px;
+  font-size: x-large;
+  margin-top: -50px;
 
 }
 
 
 #auriculares{
 
-    color: white;    
-    top: 10px;
-    left: 10px;
-    font-size: x-large;
-    margin-top: -50px;
+  color: white;    
+  top: 10px;
+  left: 10px;
+  font-size: x-large;
+  margin-top: -50px;
   
 }
 
 #Barrasonido{
   
-    color: white;    
-    top: 10px;
-    left: 10px;
-    font-size: x-large;    
-    margin-top: -50px;
+  color: white;    
+  top: 10px;
+  left: 10px;
+  font-size: x-large;    
+  margin-top: -50px;
 }
 
 #instrumentos{
   
-    color: white;     
-    top: 10px;
-    left: 10px;
-    font-size: x-large;
-    margin-top: -50px;
+  color: white;     
+  top: 10px;
+  left: 10px;
+  font-size: x-large;
+  margin-top: -50px;
   
 }
 
 
 
 .columna {
-    width:33%;
-    float:left;
-    
+  width:33%;
+  float:left;
+  
   }
   p{
     
