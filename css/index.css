@@ -149,8 +149,12 @@ ul, ol {
   color: #F26250;
   background-color: #f6f6f6;
 }
-
-
+.image-1{
+  display: grid;
+  background-image: url("../imagenes/guitarra2.jpg");
+  grid-auto-flow: column;
+  align-items: center;
+}
 
 .btn-main{ 
   display: grid; 
@@ -204,12 +208,7 @@ section{
   background-attachment: fixed;
 }
 
-.image-1 {
-  display: grid;
-  background-image:  url(imagenes/guitarra2.jpg);
-  grid-auto-flow: column;
-  align-items: center;
-}
+
 .contenedorVideo{
   
   margin: 0 auto;
