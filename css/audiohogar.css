@@ -1,7 +1,81 @@
+* {
+    margin:0px;
+    padding:0px;
+  }
 body{
-    background-image: fefaf9;
+    background-image: #fefaf9;
     font-family: 'Poppins', sans-serif;
-     }
+}
+
+
+
+#main-header{  
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+}
+#navegador {
+margin:auto;
+width:max-content;
+font-family:Arial, Helvetica, sans-serif;
+
+}
+
+ul, ol {
+list-style:none;
+}
+
+.nav > li {
+float:left;
+}
+
+.nav li a {
+
+color:black;
+text-decoration:none;
+padding:10px 12px;
+display:block;
+font-family: 'Poppins', sans-serif;
+}
+
+.nav li a:hover {
+background-color:#434343;
+}
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li {
+position:relative;
+}
+
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+
+#Cart{
+float: right;
+
+}
+#Cuenta{
+float: right;
+
+}
+
+#Logo{
+float: left;
+}
+
+
 h1{
         font-size: x-large;
         color: 0a0a0a;
