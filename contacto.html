@@ -2,17 +2,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Formulario de contacto</title>
+  <link href="css/contacto.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
   <!-- Enlace al documento css. no aplicable en codepen.
   <link rel="stylesheet" type="text/css" href="contact-form.css">
 -->
   
   </head>
-
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <body>  
   
   <!-- formulario de contacto en html y css -->  
+  
 
   <div class="contact_form">
 
@@ -21,7 +24,11 @@
         <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
 
 
-          <form action="submeter-formulario.php" method="post">       
+          <form action="submeter-formulario.php" method="post">     
+            
+            <div class="g-recaptcha" data-sitekey="6LdZfRYjAAAAAKLhxXAv2ml6W3nR2WdDY15y2xCE"></div>
+            <br/>
+            <input type="submit" value="Submit">
 
             
                 <p>
