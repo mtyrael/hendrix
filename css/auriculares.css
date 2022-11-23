@@ -49,9 +49,11 @@ min-width:140px;
 
 .nav li:hover > ul {
 display:block;
+
 }
 
 .nav li ul li {
+background-color:#949494;    
 position:relative;
 }
 
