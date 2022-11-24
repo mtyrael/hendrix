@@ -3,13 +3,14 @@
     padding:0px;
   }
 body{
-    background-image: #fefaf9;
+    background-color: #fefaf9;
     font-family: 'Poppins', sans-serif;
 }
 
 
 
 #main-header{  
+    background-color: #fefaf9;
     position: fixed;
     width: 100%;
     left: 0;
