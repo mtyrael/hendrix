@@ -63,13 +63,15 @@ ul, ol {
   top:0px;
 }
 
+
+
 #Cart{
   float: right;
-  
+  margin-right: 2%;
 }
 #Cuenta{
   float: right;
-  
+  margin-right: 2%;
 }
 
 #Logo{
