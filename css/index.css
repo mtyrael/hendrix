@@ -219,13 +219,24 @@ section{
 #textovideo{
   font-size: xx-large;
 }
+
+
 .containerPaginas{
-  margin-left: 5%;  
+  margin-bottom:5%;  
+  margin-left: 5%;
   align-items: center;
+
+}
+.colPaginas{  
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 .caja{
-  margin-bottom: 25px;
-  width:25%;
+  /*margin-bottom: 25px;*/
+  height: 360px;
+  width: 450px;  
   float:left; 
   
 }
@@ -235,12 +246,20 @@ section{
   text-decoration: none;
 }
 
+.caja img{
+  
+  width: 80%;
+  height: auto;
+
+}
+
 #altavoces {
   color: white;
   top: 10px;
   left: 10px;
   font-size: x-large;
-  margin-top: -50px;
+  /*font-size: 1.5vw;*/
+  margin-top: -15%;
 
 }
 
@@ -251,7 +270,8 @@ section{
   top: 10px;
   left: 10px;
   font-size: x-large;
-  margin-top: -50px;
+  /*font-size: 1.5vw;*/
+  margin-top: -15%;
   
 }
 
@@ -260,8 +280,9 @@ section{
   color: white;    
   top: 10px;
   left: 10px;
-  font-size: x-large;    
-  margin-top: -50px;
+  font-size: x-large;
+  /*font-size: 1.5vw;*/    
+  margin-top: -15%;
 }
 
 #instrumentos{
@@ -270,10 +291,22 @@ section{
   top: 10px;
   left: 10px;
   font-size: x-large;
-  margin-top: -50px;
+  /*font-size: 1.5vw;*/
+  margin-top: -15%;
   
 }
 
+
+
+#Redes row{
+  width: 33%;
+}
+#Redes p{
+  width: 33%;
+  background-color: black;  
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
 
 
 .columna {
@@ -297,15 +330,7 @@ section{
     
   }
 
-#Redes row{
-  width: 33%;
-}
-#Redes p{
-  width: 33%;
-  background-color: black;  
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-}
+
 
 .columna a {
   width: 33%;
