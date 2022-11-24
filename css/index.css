@@ -11,6 +11,7 @@ body{
   background-color: black;
 }
 #main-header{  
+  background-color: black;
   position: fixed;
   width: 100%;
 	left: 0;
