@@ -63,11 +63,13 @@ top:0px;
 }
 
 #Cart{
-float: right;
+    float: right;
+    margin-right: 2%;
 
 }
 #Cuenta{
-float: right;
+    float: right;
+    margin-right: 2%;
 
 }
 
@@ -75,21 +77,29 @@ float: right;
 float: left;
 }
 
-
-
-
-h1{
-    font-size: x-large;
-    color: 0a0a0a;
-    font-family: 'Poppins', sans-serif;
+.container-fluid{    
+    margin-top: 130px;
+    display: flex;    
+    flex-wrap: wrap;
+    
 }
 
 
-.row{
-    width:25%;
-    float:left;
+h1{
+    width: 100%;
+    font-size: x-large;
+    color: #0a0a0a;
+    font-family: 'Poppins', sans-serif;
 }
 
 .text-justify {
     text-align: justify;
-  }
+    color:#0a0a0a;
+    font-family: 'Poppins', sans-serif;
+}
+
+  .row{
+    margin: 10px; 
+    float:left;
+}
+

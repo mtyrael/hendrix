@@ -3,7 +3,7 @@
     padding:0px;
   }
 body{
-    background-image: #fefaf9;
+    background-color:#fefaf9;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -13,6 +13,7 @@ width: 100%;
 left: 0;
 top: 0;
 }
+
 #navegador {
 margin:auto;
 width:max-content;
@@ -49,11 +50,9 @@ min-width:140px;
 
 .nav li:hover > ul {
 display:block;
-
 }
 
 .nav li ul li {
-background-color:#949494;    
 position:relative;
 }
 
@@ -63,35 +62,44 @@ top:0px;
 }
 
 #Cart{
+
 float: right;
+margin-right: 2%;
 
 }
 #Cuenta{
+
 float: right;
+margin-right: 2%;
 
 }
 
 #Logo{
 float: left;
 }
+
+.container-fluid{    
+    margin-top: 130px;
+    display: flex;    
+    flex-wrap: wrap;
+    
+}
+
 h1{
-    margin-top: 10%;
     font-size: x-large;
     color: #0a0a0a;
     font-family: 'Poppins', sans-serif;
 }
-
-p{
+.text-justify {
+    text-align: justify;
     color:#0a0a0a;
     font-family: 'Poppins', sans-serif;
-}
+  }
 
 
 .row{
-    width:25%;
+    margin: 10px;    
     float:left;
+   
 }
 
-.text-justify {
-    text-align: justify;
-  }
